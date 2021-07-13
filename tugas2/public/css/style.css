@@ -1,0 +1,66 @@
+/* * color
+* font-size
+* background
+* font-weight
+* text-align
+* text-decoration
+* position */
+
+body{
+    background-image: url('../img/pattern.jpg');
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px;
+}
+header{
+    background-color: #f3f3f3;
+    display: flex;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    justify-content: space-between;
+    position: sticky;
+}
+ul {
+    list-style-type: none;
+    margin-right: 50px;
+}
+ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+ul a{
+    font-size: 15pt;
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+}
+.title{
+    text-align: center;
+}
+
+article{
+    margin: 5px 5px 20px 5px;
+    border-bottom: gray 2px solid;
+}
+
+article a{
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
